@@ -1,0 +1,46 @@
+[2021-11-24 13:59:59] 배치 Thread 실행
+[2021-11-24 14:00:00] Collector Demon이 시작되었습니다...
+[2021-11-24 14:00:01] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-22 12:56:33'
+[2021-11-24 14:00:01] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-22 12:56:33' , '%Y%m%d') ORDER BY collect_time
+[2021-11-24 14:00:01] Data Parsing Start
+[2021-11-24 14:00:01] Data Insert End - Total Count : 1
+[2021-11-24 14:03:39] 배치 Thread 실행
+[2021-11-24 14:03:39] Collector Demon이 시작되었습니다...
+[2021-11-24 14:03:40] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-23'
+[2021-11-24 14:03:40] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-23' , '%Y%m%d') ORDER BY collect_time
+[2021-11-24 14:03:40] Data Parsing Start
+[2021-11-24 14:03:40] Data Insert End - Total Count : 1
+[2021-11-24 14:05:59] 배치 Thread 실행
+[2021-11-24 14:05:59] Collector Demon이 시작되었습니다...
+[2021-11-24 14:06:00] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-23'
+[2021-11-24 14:06:00] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-23' , '%Y%m%d') ORDER BY collect_time
+[2021-11-24 14:06:00] Data Parsing Start
+[2021-11-24 14:06:00] Data Insert End - Total Count : 1
+[2021-11-24 14:11:02] 배치 Thread 실행
+[2021-11-24 14:11:02] Collector Demon이 시작되었습니다...
+[2021-11-24 14:11:03] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-23'
+[2021-11-24 14:11:03] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-23' , '%Y%m%d') ORDER BY collect_time
+[2021-11-24 14:11:03] Data Parsing Start
+[2021-11-24 14:11:03] Data Insert End - Total Count : 1
+[2021-11-24 14:11:03] java.sql.SQLIntegrityConstraintViolationException: Column 'cir_num' cannot be null
+[2021-11-24 14:13:03] 배치 Thread 실행
+[2021-11-24 14:13:03] Collector Demon이 시작되었습니다...
+[2021-11-24 14:13:04] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-23'
+[2021-11-24 14:13:04] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-23' , '%Y%m%d') ORDER BY collect_time
+[2021-11-24 14:13:04] Data Parsing Start
+[2021-11-24 14:13:04] Data Insert End - Total Count : 1
+[2021-11-24 14:13:04] java.sql.SQLIntegrityConstraintViolationException: Column 'cir_num' cannot be null
+[2021-11-24 14:13:25] 배치 Thread 실행
+[2021-11-24 14:13:25] Collector Demon이 시작되었습니다...
+[2021-11-24 14:13:26] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-23'
+[2021-11-24 14:13:26] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-23' , '%Y%m%d') ORDER BY collect_time
+[2021-11-24 14:13:26] Data Parsing Start
+[2021-11-24 14:13:26] Data Insert End - Total Count : 1
+[2021-11-24 14:16:03] 배치 Thread 실행
+[2021-11-24 14:16:03] Collector Demon이 시작되었습니다...
+[2021-11-24 14:20:25] 배치 Thread 실행
+[2021-11-24 14:20:25] Collector Demon이 시작되었습니다...
+[2021-11-24 14:20:39] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-23'
+[2021-11-24 14:20:39] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-23' , '%Y%m%d') ORDER BY collect_time
+[2021-11-24 14:20:39] Data Parsing Start
+[2021-11-24 14:20:39] Data Insert End - Total Count : 1

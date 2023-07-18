@@ -1,0 +1,32 @@
+[2021-12-03 15:45:28] 배치 Thread 실행
+[2021-12-03 15:45:28] Collector Demon이 시작되었습니다...
+[2021-12-03 15:45:30] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-12-02'
+[2021-12-03 15:45:30] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-12-02' , '%Y%m%d') ORDER BY collect_time
+[2021-12-03 15:45:30] Data Parsing Start
+[2021-12-03 15:45:30] Data Insert End - Total Count : 1
+[2021-12-03 15:46:37] 배치 Thread 실행
+[2021-12-03 15:46:37] Collector Demon이 시작되었습니다...
+[2021-12-03 15:46:38] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-12-02'
+[2021-12-03 15:46:38] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-12-02' , '%Y%m%d') ORDER BY collect_time
+[2021-12-03 15:46:38] Data Parsing Start
+[2021-12-03 15:46:38] Data Insert End - Total Count : 1
+[2021-12-03 15:46:38] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10000000000''' at line 1
+[2021-12-03 15:47:26] 배치 Thread 실행
+[2021-12-03 15:47:26] Collector Demon이 시작되었습니다...
+[2021-12-03 15:47:27] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-12-02'
+[2021-12-03 15:47:27] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-12-02' , '%Y%m%d') ORDER BY collect_time
+[2021-12-03 15:47:27] Data Parsing Start
+[2021-12-03 15:47:27] Data Insert End - Total Count : 1
+[2021-12-03 15:48:22] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10000000000''' at line 1
+[2021-12-03 15:48:48] 배치 Thread 실행
+[2021-12-03 15:48:48] Collector Demon이 시작되었습니다...
+[2021-12-03 15:48:49] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-12-02'
+[2021-12-03 15:48:49] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-12-02' , '%Y%m%d') ORDER BY collect_time
+[2021-12-03 15:48:49] Data Parsing Start
+[2021-12-03 15:48:49] Data Insert End - Total Count : 1
+[2021-12-03 15:51:18] 배치 Thread 실행
+[2021-12-03 15:51:18] Collector Demon이 시작되었습니다...
+[2021-12-03 15:51:19] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-12-02'
+[2021-12-03 15:51:19] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-12-02' , '%Y%m%d') ORDER BY collect_time
+[2021-12-03 15:51:19] Data Parsing Start
+[2021-12-03 15:51:19] Data Insert End - Total Count : 1

@@ -1,0 +1,10 @@
+[2022-02-23 11:14:29] 배치 Thread 실행
+[2022-02-23 11:14:29] Collector Demon이 시작되었습니다...
+[2022-02-23 11:14:30] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2022-02-22'
+[2022-02-23 11:14:30] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2022-02-22' , '%Y%m%d') ORDER BY collect_time
+[2022-02-23 11:14:30] Data Parsing Start
+[2022-02-23 11:14:30] Data Insert End - Total Count : 1
+[2022-02-23 11:14:30] java.sql.SQLIntegrityConstraintViolationException: Column 'cir_num' cannot be null
+[2022-02-23 11:15:17] 배치 Thread 실행
+[2022-02-23 11:15:17] Collector Demon이 시작되었습니다...
+[2022-02-23 11:15:23] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2022-02-22'

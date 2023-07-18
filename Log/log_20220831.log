@@ -1,0 +1,21 @@
+[2022-08-31 16:57:43] 배치 Thread 실행
+[2022-08-31 16:57:43] Collector Demon이 시작되었습니다...
+[2022-08-31 16:57:58] [ condition query ] SUBSTR(collect_time, 1, 8) >= date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2022-06-02'
+[2022-08-31 16:58:01] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE SUBSTR(collect_time, 1, 8) >= date_format( '2022-06-02' , '%Y%m%d') GROUP BY fwid, if_index, collect_dt 
+[2022-08-31 16:58:03] java.lang.NullPointerException
+[2022-08-31 16:59:55] 배치 Thread 실행
+[2022-08-31 16:59:55] Collector Demon이 시작되었습니다...
+[2022-08-31 16:59:57] [ condition query ] SUBSTR(collect_time, 1, 8) >= date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2022-06-02'
+[2022-08-31 16:59:57] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE SUBSTR(collect_time, 1, 8) >= date_format( '2022-06-02' , '%Y%m%d') GROUP BY fwid, if_index, collect_date 
+[2022-08-31 17:00:00] Data Parsing Start
+[2022-08-31 17:00:00] java.sql.SQLIntegrityConstraintViolationException: Column 'collect_date' cannot be null
+[2022-08-31 17:03:22] 배치 Thread 실행
+[2022-08-31 17:03:22] Collector Demon이 시작되었습니다...
+[2022-08-31 17:03:24] [ condition query ] SUBSTR(collect_time, 1, 8) >= date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2022-06-02'
+[2022-08-31 17:03:24] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE SUBSTR(collect_time, 1, 8) >= date_format( '2022-06-02' , '%Y%m%d') GROUP BY fwid, if_index, collect_date 
+[2022-08-31 17:03:27] Data Parsing Start
+[2022-08-31 17:03:59] 배치 Thread 실행
+[2022-08-31 17:03:59] Collector Demon이 시작되었습니다...
+[2022-08-31 17:04:00] [ condition query ] SUBSTR(collect_time, 1, 8) >= date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2022-06-02'
+[2022-08-31 17:04:00] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE SUBSTR(collect_time, 1, 8) >= date_format( '2022-06-02' , '%Y%m%d') GROUP BY fwid, if_index, collect_date 
+[2022-08-31 17:04:03] Data Parsing Start

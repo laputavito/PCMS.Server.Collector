@@ -1,0 +1,6 @@
+[2021-12-14 15:10:19] 배치 Thread 실행
+[2021-12-14 15:10:19] Collector Demon이 시작되었습니다...
+[2021-12-14 15:10:20] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-12-13'
+[2021-12-14 15:10:20] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-12-13' , '%Y%m%d') ORDER BY collect_time
+[2021-12-14 15:10:20] Data Parsing Start
+[2021-12-14 15:10:26] Data Insert End - Total Count : 1

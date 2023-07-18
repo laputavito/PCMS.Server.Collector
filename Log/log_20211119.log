@@ -1,0 +1,147 @@
+[2021-11-19 16:02:20] 배치 Thread 실행
+[2021-11-19 16:02:20] Collector Demon이 시작되었습니다...
+[2021-11-19 16:02:41] com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+cems.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+cems.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+cems.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+cems.server.collecotr.main.CollectorDemon.run(CollectorDemon.java:32)
+java.lang.Thread.run(Unknown Source)
+
+[2021-11-19 16:03:00] 배치 Thread 실행
+[2021-11-19 16:03:00] Collector Demon이 시작되었습니다...
+[2021-11-19 16:03:22] com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+java.sql.DriverManager.getConnection(Unknown Source)
+java.sql.DriverManager.getConnection(Unknown Source)
+cems.server.collector.db.ConnectionPool.initialize(ConnectionPool.java:46)
+cems.server.collector.db.ConnectionPool.<init>(ConnectionPool.java:25)
+cems.server.collector.db.ConnectionPool.getInstance(ConnectionPool.java:34)
+cems.server.collecotr.main.CollectorDemon.run(CollectorDemon.java:32)
+java.lang.Thread.run(Unknown Source)
+
+[2021-11-19 16:03:43] 배치 Thread 실행
+[2021-11-19 16:03:56] Collector Demon이 시작되었습니다...
+[2021-11-19 16:04:17] 배치 Thread 실행
+[2021-11-19 16:04:17] Collector Demon이 시작되었습니다...
+[2021-11-19 16:04:33] 배치 Thread 실행
+[2021-11-19 16:04:33] Collector Demon이 시작되었습니다...
+[2021-11-19 16:05:51] 배치 Thread 실행
+[2021-11-19 16:05:51] Collector Demon이 시작되었습니다...
+[2021-11-19 16:06:07] java.lang.NumberFormatException: null
+[2021-11-19 16:06:21] 배치 Thread 실행
+[2021-11-19 16:06:21] Collector Demon이 시작되었습니다...
+[2021-11-19 16:07:34] 배치 Thread 실행
+[2021-11-19 16:07:34] Collector Demon이 시작되었습니다...
+[2021-11-19 16:08:05] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:10:44] [ collect_query ] SELECT fwid, fw_name, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:12:37] 배치 Thread 실행
+[2021-11-19 16:12:37] Collector Demon이 시작되었습니다...
+[2021-11-19 16:12:55] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:12:55] [ collect_query ] SELECT fwid, fw_name, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:14:41] 배치 Thread 실행
+[2021-11-19 16:14:41] Collector Demon이 시작되었습니다...
+[2021-11-19 16:14:44] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:14:44] [ collect_query ] SELECT fwid, fw_name, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:15:54] 배치 Thread 실행
+[2021-11-19 16:15:54] Collector Demon이 시작되었습니다...
+[2021-11-19 16:15:56] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:15:56] [ collect_query ] SELECT fwid, fw_name, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:18:03] 배치 Thread 실행
+[2021-11-19 16:18:03] Collector Demon이 시작되었습니다...
+[2021-11-19 16:18:06] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:18:06] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:18:21] Data Parsing Start
+[2021-11-19 16:23:57] 배치 Thread 실행
+[2021-11-19 16:23:57] Collector Demon이 시작되었습니다...
+[2021-11-19 16:23:59] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:23:59] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:24:24] Data Parsing Start
+[2021-11-19 16:26:25] 배치 Thread 실행
+[2021-11-19 16:26:25] Collector Demon이 시작되었습니다...
+[2021-11-19 16:26:29] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:26:29] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:26:32] Data Parsing Start
+[2021-11-19 16:27:02] CopyData Error : com.mysql.cj.jdbc.ConnectionImpl cannot be cast to org.postgresql.core.BaseConnection
+[2021-11-19 16:36:46] 배치 Thread 실행
+[2021-11-19 16:36:46] Collector Demon이 시작되었습니다...
+[2021-11-19 16:36:48] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:36:48] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:36:52] Data Parsing Start
+[2021-11-19 16:37:11] java.sql.SQLSyntaxErrorException: Unknown column 'regdt' in 'field list'
+[2021-11-19 16:37:48] 배치 Thread 실행
+[2021-11-19 16:37:48] Collector Demon이 시작되었습니다...
+[2021-11-19 16:37:51] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:37:51] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d'), Max(in_bps), Max(out_bps) FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:37:51] Data Parsing Start
+[2021-11-19 16:37:58] java.sql.SQLIntegrityConstraintViolationException: Column 'collect_date' cannot be null
+[2021-11-19 16:39:17] 배치 Thread 실행
+[2021-11-19 16:39:17] Collector Demon이 시작되었습니다...
+[2021-11-19 16:39:18] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:39:18] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:39:18] Data Parsing Start
+[2021-11-19 16:41:13] 배치 Thread 실행
+[2021-11-19 16:41:13] Collector Demon이 시작되었습니다...
+[2021-11-19 16:41:14] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:41:14] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:41:14] Data Parsing Start
+[2021-11-19 16:48:13] 배치 Thread 실행
+[2021-11-19 16:48:13] Collector Demon이 시작되었습니다...
+[2021-11-19 16:48:14] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:48:14] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:48:14] Data Parsing Start
+[2021-11-19 16:48:39] 배치 Thread 실행
+[2021-11-19 16:48:39] Collector Demon이 시작되었습니다...
+[2021-11-19 16:48:40] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:48:40] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:48:40] Data Parsing Start
+[2021-11-19 16:49:04] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'select count() from kds_circuit_traffic_info where cir_num = '10000000000' and c' at line 1
+[2021-11-19 16:49:49] 배치 Thread 실행
+[2021-11-19 16:49:49] Collector Demon이 시작되었습니다...
+[2021-11-19 16:49:50] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:49:50] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:49:50] Data Parsing Start
+[2021-11-19 16:51:39] 배치 Thread 실행
+[2021-11-19 16:51:39] Collector Demon이 시작되었습니다...
+[2021-11-19 16:51:40] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:51:40] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:51:40] Data Parsing Start
+[2021-11-19 16:51:46] java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') from kds_circuit_traffic_info where cir_num = '10000000000' and collect_date =' at line 1
+[2021-11-19 16:52:08] 배치 Thread 실행
+[2021-11-19 16:52:08] Collector Demon이 시작되었습니다...
+[2021-11-19 16:52:09] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:52:09] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:52:09] Data Parsing Start
+[2021-11-19 16:53:23] 배치 Thread 실행
+[2021-11-19 16:53:23] Collector Demon이 시작되었습니다...
+[2021-11-19 16:53:24] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:53:24] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:53:24] Data Parsing Start
+[2021-11-19 16:53:40] Data Insert Stop - Total Count : 1
+[2021-11-19 16:55:00] 배치 Thread 실행
+[2021-11-19 16:55:00] Collector Demon이 시작되었습니다...
+[2021-11-19 16:55:01] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:55:01] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:55:01] Data Parsing Start
+[2021-11-19 16:55:06] Data Insert Stop - Total Count : 1
+[2021-11-19 16:55:48] 배치 Thread 실행
+[2021-11-19 16:55:48] Collector Demon이 시작되었습니다...
+[2021-11-19 16:55:49] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:55:49] [ collect_query ] SELECT fwid, fwname, if_index, date_format(now(), '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:55:49] Data Parsing Start
+[2021-11-19 16:57:10] 배치 Thread 실행
+[2021-11-19 16:57:10] Collector Demon이 시작되었습니다...
+[2021-11-19 16:57:11] [ condition query ] collect_time = date_format( $$condition_value$$ , '%Y%m%d') [ condition value ] '2021-11-18'
+[2021-11-19 16:57:11] [ collect_query ] SELECT fwid, fwname, if_index, date_format(collect_time, '%Y%m%d') as collect_date, Max(in_bps) as max_in_bps, Max(out_bps) as max_out_bps FROM vpms.vw_fw_device_snmp_traffic_info_max_bps WHERE collect_time = date_format( '2021-11-18' , '%Y%m%d') ORDER BY collect_time
+[2021-11-19 16:57:11] Data Parsing Start
+[2021-11-19 16:57:27] Data Insert End - Total Count : 1
